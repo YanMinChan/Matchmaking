@@ -1,0 +1,85 @@
+/* CSS for Join Room Page */
+
+body {
+    background: linear-gradient(135deg, #1f1f1f, #242424); 
+    font-family: 'Roboto', sans-serif; 
+    color: #fff; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #1f1f1f, #242424);
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#back {
+    float: left; 
+    padding: 10px 20px;
+    background-color: #c0310a; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#back:hover {
+    background-color: #d3360a;  
+}
+
+.interface {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: left; 
+}
+
+input {
+    width: calc(100% - 16px); 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+}
+
+#createRoom {
+    width: 100%;
+    padding: 12px;
+    background-color: #42b7e7; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#createRoom:hover {
+    background-color: #318abf; 
+}

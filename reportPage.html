@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Player</title>
+    <link href="reportPage.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    <div class="header">
+        <button onclick="goToWaitingRoom()">Back</button>
+        <h2>Game Report Page</h2>
+        
+    </div>
+    <div class="container">
+        <ul class="player-list">
+            <li class="player-item" onclick="showReportOptions('Player2')">Player 2</li>
+            <li class="player-item" onclick="showReportOptions('Player3')">Player 3</li>
+            <li class="player-item" onclick="showReportOptions('Player4')">Player 4</li>
+            <li class="player-item" onclick="showReportOptions('Player5')">Player 5</li>
+            <li class="player-item" onclick="showReportOptions('Player6')">Player 6</li>
+            <li class="player-item" onclick="showReportOptions('Player7')">Player 7</li>
+            <li class="player-item" onclick="showReportOptions('Player8')">Player 8</li>
+        </ul>
+
+        <div id="reportOptions" class="report-options">
+            <h3>Report Options</h3>
+            <div class="report-type">
+                <input type="checkbox" id="cheatingCheckbox">
+                <label for="cheatingCheckbox">Cheating/Hacking</label>
+            </div>
+            <div class="report-type">
+                <input type="checkbox" id="cheatingCheckbox">
+                <label for="cheatingCheckbox">Voice-Abuse</label>
+            </div>
+            <div class="report-type">
+                <input type="checkbox" id="cheatingCheckbox">
+                <label for="cheatingCheckbox">Text-Abuse</label>
+            </div>
+            <div class="report-type">
+                <input type="checkbox" id="cheatingCheckbox">
+                <label for="cheatingCheckbox">Threats</label>
+            </div>
+            <button onclick="goBack()">Back</button>
+            <button id="submitReport" onclick="submitReport()">Submit Report</button>
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    
+
+    <script>
+        
+        function goToWaitingRoom(){
+            window.location.href="waitingRoom.html";
+        }
+
+        function showReportOptions(playerName) {
+            document.getElementById('reportOptions').style.display = 'block';
+        }
+
+        function goBack() {
+            document.getElementById('reportOptions').style.display = 'none';
+        }
+
+        function submitReport() {
+            alert('Report submitted successfully!');
+        }
+    </script>
+</body>
+</html>

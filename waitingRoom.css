@@ -1,0 +1,97 @@
+/* waitingRoom.css */
+
+body {
+    background: linear-gradient(135deg, #1f1f1f, #242424); 
+    font-family: 'Roboto', sans-serif; 
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: linear-gradient(135deg, #1f1f1f, #242424);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px; 
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); 
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px; 
+    background-color: #4CAF50; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header button {
+    width: auto;
+    background-color: #c0310a; 
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+.header button:hover {
+    background-color: #d3360a; 
+}
+.players-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.player {
+    text-align: center;
+    margin: 10px; 
+}
+#player1-img {
+    
+    width: 150px; 
+    height: auto; 
+    border-radius: 100%; 
+}
+
+#player2-img {
+    
+    width: 150px; 
+    height: auto; 
+    border-radius: 100%; 
+}
+#player3-img {
+    
+    width: 150px; 
+    height: auto; 
+    border-radius: 100%; 
+}
+#player4-img {
+    
+    width: 150px; 
+    height: auto; 
+    border-radius: 100%; 
+}
+
+.footer {
+    height: 50px;
+    background: linear-gradient(135deg, #1f1f1f, #242424);  
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

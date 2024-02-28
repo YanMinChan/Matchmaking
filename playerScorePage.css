@@ -1,0 +1,111 @@
+/* playerScore.css */
+
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #292525; 
+} */
+
+body {
+    background: linear-gradient(135deg, #1f1f1f, #242424); 
+    font-family: 'Roboto', sans-serif; 
+    color: #fff; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: linear-gradient(135deg, #1f1f1f, #242424);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header button {
+    background-color: #c0310a; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header button:hover {
+    background-color: #d3360a; 
+    color: #fff; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.8);;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    color: #e5d6d6;
+}
+
+.player-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #393b36fc; 
+    transition: background-color 0.3s ease;
+}
+
+.player-score:hover {
+    background-color: #2e7d13; 
+}
+
+.player-score p {
+    margin: 0;
+}
+
+.player-name {
+    font-weight: bold;
+    color: #000000; 
+}
+
+.player-score-value {
+    font-weight: bold;
+    color: #4CAF50; 
+}
+
+#you {
+    background-color: #4db2dafc; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: linear-gradient(135deg, #1f1f1f, #242424); 
+    padding: 20px;
+    text-align: center;
+}
+
+.footer button {
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer button:hover {
+    background-color: #45a049;
+}

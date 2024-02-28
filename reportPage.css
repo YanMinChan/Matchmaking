@@ -1,0 +1,128 @@
+/* reportPage.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f; 
+    color: #fff;
+    min-height: 10vh;
+}
+
+/* .header {
+    background-color: #111;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.header button {
+    background-color: #fff; 
+    color: #000000; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: linear-gradient(135deg, #1f1f1f, #242424);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header button {
+    background-color: #fff; 
+    color: #000000; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header button:hover {
+    background-color: #c0310a; 
+    color: #fff; 
+}
+
+h2 {
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    background-color: #333; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.player-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    flex: 1;
+}
+
+.player-item {
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.player-item:hover {
+    background-color: #444; 
+}
+
+.report-options {
+    display: none;
+    padding: 20px;
+    width: 100%;
+    flex: 1;
+}
+
+.report-type {
+    margin-bottom: 10px;
+}
+
+.report-type input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #fff; 
+    color: #000000; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #4CAF50; 
+    color: #fff; 
+}
